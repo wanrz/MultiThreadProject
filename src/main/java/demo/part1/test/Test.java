@@ -16,8 +16,9 @@ public class Test {
 			myThread.start();
 			for(int i=0;i<10;i++){
 				int time=(int) (Math.random()*1000);
+				myThread.getName();
 				Thread.sleep(time);
-				System.out.println("main="+Thread.currentThread().getName());
+				System.out.println("main="+Thread.currentThread().getName()+" "+Thread.currentThread().getId());
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
