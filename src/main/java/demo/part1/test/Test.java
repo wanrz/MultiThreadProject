@@ -4,7 +4,7 @@ package demo.part1.test;
  * <p>ClassName: Test</p>
  * Description:加点描述<br/>
  * @date 2018年8月7日 下午6:09:50 
- * @author wangrenzong@cloudwalk.cn
+ * @author
  * @version 1.0
  * @since JDK 1.7
  */ 
